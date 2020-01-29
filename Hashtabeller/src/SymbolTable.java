@@ -100,11 +100,6 @@ public class SymbolTable {
 	/**
 	 * Return the value associated with the given key, null if no such value
 	 */
-	// Komplettering: Detta är fortfarande inte implementerat. Se till att ta bort
-	// utkommenterad kod innan ni skickar in nästa gång, så blir det enklare för
-	// oss att rätta. Se även till att få godkänt i Kattis inför komplettering.
-	// Finns något kriterie där vi kan konstatera att elementet inte finns
-	// och avbryta sökningen tidigare, utan att behöva iterera igenom hela tabellen?
 	public Character get(String key) {
 
 		int hash = hash(key);
@@ -126,13 +121,7 @@ public class SymbolTable {
 	/**
 	 * Delete the key (and associated value) from the symbol table
 	 */
-	// Komplettering: Nedanstående exempel blir fortfarande inte rätt med er
-	// implementering. Fundera först, på papper eller tavlan, vad ni borde få
-	// för resultat och kontrollera vad ni faktiskt får med en utskrift av
-	// tabellen. Förstår ni inte varför det är fel, fråga gärna under nästa 
-	// labbpass.
-	//
-	// Fundera på vad som borde ske när ni
+	// Fundera på vad som borde ske när man
 	// har en tabell med följande element och tar bort het:
 	// index: 0    1    2    3    4    5    6
 	// key:   the  info fusk teh  null null het
