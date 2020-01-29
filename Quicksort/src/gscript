@@ -1,0 +1,9 @@
+#! /bin/sh
+LC_ALL=C
+export LC_ALL
+java QSortTest -s | tee qsort.dat
+gnuplot /home/TDDC91/bin/qsort.gnupl
+rm qsort.dat
+ps2pdfwr qsort.ps timing.pdf
+rm qsort.ps
+
