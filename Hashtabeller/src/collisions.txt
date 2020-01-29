@@ -1,0 +1,5 @@
+Kollisioner
+Vad är den uppskattade sannolikheten för att minst en kollision uppstår när 2500 element sätts in i tabellen? 
+Efter några genomkörningar av collisions.java får vi fram en sannolikhet på ~95%.
+Hur många element behöver sättas in i tabellen för att den uppskattade sannolikheten för en kollision ska överstiga 0.5 och går det att ge någon enkel förklaring till att det är så mycket färre insättningar än 500000 som krävs? 
+Collisions.java ger en sannolikhet > 50% vid 1200 hashade element. Man jämför inte bara ett element med resten av tabellen när man letar efter kollisioner, utan man jämför alla elementen i tabellen med varandra.
